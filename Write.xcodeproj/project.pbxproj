@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC170218181773F60020DCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC170217181773F60020DCFE /* Foundation.framework */; };
+		FC17021A181773F60020DCFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC170219181773F60020DCFE /* CoreGraphics.framework */; };
+		FC17021C181773F60020DCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17021B181773F60020DCFE /* UIKit.framework */; };
+		FC17021E181773F60020DCFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17021D181773F60020DCFE /* CoreData.framework */; };
+		FC170224181773F60020DCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC170222181773F60020DCFE /* InfoPlist.strings */; };
+		FC170226181773F60020DCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC170225181773F60020DCFE /* main.m */; };
+		FC17022A181773F60020DCFE /* WriteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC170229181773F60020DCFE /* WriteAppDelegate.m */; };
+		FC17022D181773F60020DCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC17022B181773F60020DCFE /* Main.storyboard */; };
+		FC170230181773F60020DCFE /* Write.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC17022E181773F60020DCFE /* Write.xcdatamodeld */; };
+		FC170233181773F60020DCFE /* WriteMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC170232181773F60020DCFE /* WriteMasterViewController.m */; };
+		FC170236181773F60020DCFE /* WriteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC170235181773F60020DCFE /* WriteDetailViewController.m */; };
+		FC170238181773F60020DCFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC170237181773F60020DCFE /* Images.xcassets */; };
+		FC17023F181773F60020DCFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17023E181773F60020DCFE /* XCTest.framework */; };
+		FC170240181773F60020DCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC170217181773F60020DCFE /* Foundation.framework */; };
+		FC170241181773F60020DCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17021B181773F60020DCFE /* UIKit.framework */; };
+		FC170242181773F60020DCFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17021D181773F60020DCFE /* CoreData.framework */; };
+		FC17024A181773F60020DCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC170248181773F60020DCFE /* InfoPlist.strings */; };
+		FC17024C181773F60020DCFE /* WriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC17024B181773F60020DCFE /* WriteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC170243181773F60020DCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC17020C181773F60020DCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC170213181773F60020DCFE;
+			remoteInfo = Write;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC170214181773F60020DCFE /* Write.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Write.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC170217181773F60020DCFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC170219181773F60020DCFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC17021B181773F60020DCFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC17021D181773F60020DCFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC170221181773F60020DCFE /* Write-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Write-Info.plist"; sourceTree = "<group>"; };
+		FC170223181773F60020DCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC170225181773F60020DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC170227181773F60020DCFE /* Write-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Write-Prefix.pch"; sourceTree = "<group>"; };
+		FC170228181773F60020DCFE /* WriteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteAppDelegate.h; sourceTree = "<group>"; };
+		FC170229181773F60020DCFE /* WriteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteAppDelegate.m; sourceTree = "<group>"; };
+		FC17022C181773F60020DCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC17022F181773F60020DCFE /* Write.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Write.xcdatamodel; sourceTree = "<group>"; };
+		FC170231181773F60020DCFE /* WriteMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteMasterViewController.h; sourceTree = "<group>"; };
+		FC170232181773F60020DCFE /* WriteMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteMasterViewController.m; sourceTree = "<group>"; };
+		FC170234181773F60020DCFE /* WriteDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteDetailViewController.h; sourceTree = "<group>"; };
+		FC170235181773F60020DCFE /* WriteDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteDetailViewController.m; sourceTree = "<group>"; };
+		FC170237181773F60020DCFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC17023D181773F60020DCFE /* WriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17023E181773F60020DCFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC170247181773F60020DCFE /* WriteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WriteTests-Info.plist"; sourceTree = "<group>"; };
+		FC170249181773F60020DCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC17024B181773F60020DCFE /* WriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC170211181773F60020DCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17021A181773F60020DCFE /* CoreGraphics.framework in Frameworks */,
+				FC17021E181773F60020DCFE /* CoreData.framework in Frameworks */,
+				FC17021C181773F60020DCFE /* UIKit.framework in Frameworks */,
+				FC170218181773F60020DCFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17023A181773F60020DCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17023F181773F60020DCFE /* XCTest.framework in Frameworks */,
+				FC170242181773F60020DCFE /* CoreData.framework in Frameworks */,
+				FC170241181773F60020DCFE /* UIKit.framework in Frameworks */,
+				FC170240181773F60020DCFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC17020B181773F60020DCFE = {
+			isa = PBXGroup;
+			children = (
+				FC17021F181773F60020DCFE /* Write */,
+				FC170245181773F60020DCFE /* WriteTests */,
+				FC170216181773F60020DCFE /* Frameworks */,
+				FC170215181773F60020DCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC170215181773F60020DCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC170214181773F60020DCFE /* Write.app */,
+				FC17023D181773F60020DCFE /* WriteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC170216181773F60020DCFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC170217181773F60020DCFE /* Foundation.framework */,
+				FC170219181773F60020DCFE /* CoreGraphics.framework */,
+				FC17021B181773F60020DCFE /* UIKit.framework */,
+				FC17021D181773F60020DCFE /* CoreData.framework */,
+				FC17023E181773F60020DCFE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC17021F181773F60020DCFE /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				FC170228181773F60020DCFE /* WriteAppDelegate.h */,
+				FC170229181773F60020DCFE /* WriteAppDelegate.m */,
+				FC17022B181773F60020DCFE /* Main.storyboard */,
+				FC170231181773F60020DCFE /* WriteMasterViewController.h */,
+				FC170232181773F60020DCFE /* WriteMasterViewController.m */,
+				FC170234181773F60020DCFE /* WriteDetailViewController.h */,
+				FC170235181773F60020DCFE /* WriteDetailViewController.m */,
+				FC170237181773F60020DCFE /* Images.xcassets */,
+				FC17022E181773F60020DCFE /* Write.xcdatamodeld */,
+				FC170220181773F60020DCFE /* Supporting Files */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		FC170220181773F60020DCFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC170221181773F60020DCFE /* Write-Info.plist */,
+				FC170222181773F60020DCFE /* InfoPlist.strings */,
+				FC170225181773F60020DCFE /* main.m */,
+				FC170227181773F60020DCFE /* Write-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC170245181773F60020DCFE /* WriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC17024B181773F60020DCFE /* WriteTests.m */,
+				FC170246181773F60020DCFE /* Supporting Files */,
+			);
+			path = WriteTests;
+			sourceTree = "<group>";
+		};
+		FC170246181773F60020DCFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC170247181773F60020DCFE /* WriteTests-Info.plist */,
+				FC170248181773F60020DCFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC170213181773F60020DCFE /* Write */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Write" */;
+			buildPhases = (
+				FC170210181773F60020DCFE /* Sources */,
+				FC170211181773F60020DCFE /* Frameworks */,
+				FC170212181773F60020DCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Write;
+			productName = Write;
+			productReference = FC170214181773F60020DCFE /* Write.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC17023C181773F60020DCFE /* WriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "WriteTests" */;
+			buildPhases = (
+				FC170239181773F60020DCFE /* Sources */,
+				FC17023A181773F60020DCFE /* Frameworks */,
+				FC17023B181773F60020DCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC170244181773F60020DCFE /* PBXTargetDependency */,
+			);
+			name = WriteTests;
+			productName = WriteTests;
+			productReference = FC17023D181773F60020DCFE /* WriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC17020C181773F60020DCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Write;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dylan Moore";
+				TargetAttributes = {
+					FC17023C181773F60020DCFE = {
+						TestTargetID = FC170213181773F60020DCFE;
+					};
+				};
+			};
+			buildConfigurationList = FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Write" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC17020B181773F60020DCFE;
+			productRefGroup = FC170215181773F60020DCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC170213181773F60020DCFE /* Write */,
+				FC17023C181773F60020DCFE /* WriteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC170212181773F60020DCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC170238181773F60020DCFE /* Images.xcassets in Resources */,
+				FC170224181773F60020DCFE /* InfoPlist.strings in Resources */,
+				FC17022D181773F60020DCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC17023B181773F60020DCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17024A181773F60020DCFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC170210181773F60020DCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC170233181773F60020DCFE /* WriteMasterViewController.m in Sources */,
+				FC170236181773F60020DCFE /* WriteDetailViewController.m in Sources */,
+				FC17022A181773F60020DCFE /* WriteAppDelegate.m in Sources */,
+				FC170230181773F60020DCFE /* Write.xcdatamodeld in Sources */,
+				FC170226181773F60020DCFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC170239181773F60020DCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17024C181773F60020DCFE /* WriteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC170244181773F60020DCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC170213181773F60020DCFE /* Write */;
+			targetProxy = FC170243181773F60020DCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC170222181773F60020DCFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC170223181773F60020DCFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC17022B181773F60020DCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC17022C181773F60020DCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC170248181773F60020DCFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC170249181773F60020DCFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC17024D181773F60020DCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC17024E181773F60020DCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC170250181773F60020DCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
+				INFOPLIST_FILE = "Write/Write-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC170251181773F60020DCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
+				INFOPLIST_FILE = "Write/Write-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC170253181773F60020DCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Write.app/Write";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WriteTests/WriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC170254181773F60020DCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Write.app/Write";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
+				INFOPLIST_FILE = "WriteTests/WriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Write" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17024D181773F60020DCFE /* Debug */,
+				FC17024E181773F60020DCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Write" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC170250181773F60020DCFE /* Debug */,
+				FC170251181773F60020DCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "WriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC170253181773F60020DCFE /* Debug */,
+				FC170254181773F60020DCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC17022E181773F60020DCFE /* Write.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC17022F181773F60020DCFE /* Write.xcdatamodel */,
+			);
+			currentVersion = FC17022F181773F60020DCFE /* Write.xcdatamodel */;
+			path = Write.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC17020C181773F60020DCFE /* Project object */;
+}
