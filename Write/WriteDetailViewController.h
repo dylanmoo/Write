@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tag.h"
 
 @interface WriteDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) Tag *tagObject;
+@property (weak, nonatomic) IBOutlet UITextView *sentenceView;
 @end

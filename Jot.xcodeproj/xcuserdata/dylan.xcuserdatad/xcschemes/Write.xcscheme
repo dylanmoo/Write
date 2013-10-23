@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC170213181773F60020DCFE"
                BuildableName = "Write.app"
-               BlueprintName = "Write"
-               ReferencedContainer = "container:Write.xcodeproj">
+               BlueprintName = "Jot"
+               ReferencedContainer = "container:Jot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC17023C181773F60020DCFE"
                BuildableName = "WriteTests.xctest"
-               BlueprintName = "WriteTests"
-               ReferencedContainer = "container:Write.xcodeproj">
+               BlueprintName = "JotTests"
+               ReferencedContainer = "container:Jot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC170213181773F60020DCFE"
             BuildableName = "Write.app"
-            BlueprintName = "Write"
-            ReferencedContainer = "container:Write.xcodeproj">
+            BlueprintName = "Jot"
+            ReferencedContainer = "container:Jot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC170213181773F60020DCFE"
             BuildableName = "Write.app"
-            BlueprintName = "Write"
-            ReferencedContainer = "container:Write.xcodeproj">
+            BlueprintName = "Jot"
+            ReferencedContainer = "container:Jot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC170213181773F60020DCFE"
             BuildableName = "Write.app"
-            BlueprintName = "Write"
-            ReferencedContainer = "container:Write.xcodeproj">
+            BlueprintName = "Jot"
+            ReferencedContainer = "container:Jot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

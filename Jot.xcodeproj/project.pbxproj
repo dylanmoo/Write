@@ -25,6 +25,10 @@
 		FC170242181773F60020DCFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17021D181773F60020DCFE /* CoreData.framework */; };
 		FC17024A181773F60020DCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC170248181773F60020DCFE /* InfoPlist.strings */; };
 		FC17024C181773F60020DCFE /* WriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC17024B181773F60020DCFE /* WriteTests.m */; };
+		FC17025E1817760D0020DCFE /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = FC17025D1817760D0020DCFE /* Tag.m */; };
+		FCA9569C18177F560020BB67 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA9569B18177F560020BB67 /* Store.m */; };
+		FCA9569F1817928A0020BB67 /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA9569E1817928A0020BB67 /* Sentence.m */; };
+		FCC0BBF718177BFF00377F5D /* WriteNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0BBF618177BFF00377F5D /* WriteNoteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC170214181773F60020DCFE /* Write.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Write.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC170214181773F60020DCFE /* Jot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC170217181773F60020DCFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC170219181773F60020DCFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FC17021B181773F60020DCFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC17021D181773F60020DCFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FC170221181773F60020DCFE /* Write-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Write-Info.plist"; sourceTree = "<group>"; };
+		FC170221181773F60020DCFE /* Jot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jot-Info.plist"; sourceTree = "<group>"; };
 		FC170223181773F60020DCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC170225181773F60020DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC170227181773F60020DCFE /* Write-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Write-Prefix.pch"; sourceTree = "<group>"; };
+		FC170227181773F60020DCFE /* Jot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jot-Prefix.pch"; sourceTree = "<group>"; };
 		FC170228181773F60020DCFE /* WriteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteAppDelegate.h; sourceTree = "<group>"; };
 		FC170229181773F60020DCFE /* WriteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteAppDelegate.m; sourceTree = "<group>"; };
 		FC17022C181773F60020DCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,11 +60,19 @@
 		FC170234181773F60020DCFE /* WriteDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteDetailViewController.h; sourceTree = "<group>"; };
 		FC170235181773F60020DCFE /* WriteDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteDetailViewController.m; sourceTree = "<group>"; };
 		FC170237181773F60020DCFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC17023D181773F60020DCFE /* WriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17023D181773F60020DCFE /* JotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC17023E181773F60020DCFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FC170247181773F60020DCFE /* WriteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WriteTests-Info.plist"; sourceTree = "<group>"; };
+		FC170247181773F60020DCFE /* JotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JotTests-Info.plist"; sourceTree = "<group>"; };
 		FC170249181773F60020DCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC17024B181773F60020DCFE /* WriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteTests.m; sourceTree = "<group>"; };
+		FC17025C1817760D0020DCFE /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		FC17025D1817760D0020DCFE /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		FCA9569A18177F560020BB67 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		FCA9569B18177F560020BB67 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		FCA9569D1817928A0020BB67 /* Sentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sentence.h; sourceTree = "<group>"; };
+		FCA9569E1817928A0020BB67 /* Sentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sentence.m; sourceTree = "<group>"; };
+		FCC0BBF518177BFF00377F5D /* WriteNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteNoteViewController.h; sourceTree = "<group>"; };
+		FCC0BBF618177BFF00377F5D /* WriteNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteNoteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +114,8 @@
 		FC170215181773F60020DCFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC170214181773F60020DCFE /* Write.app */,
-				FC17023D181773F60020DCFE /* WriteTests.xctest */,
+				FC170214181773F60020DCFE /* Jot.app */,
+				FC17023D181773F60020DCFE /* JotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,8 +142,12 @@
 				FC170232181773F60020DCFE /* WriteMasterViewController.m */,
 				FC170234181773F60020DCFE /* WriteDetailViewController.h */,
 				FC170235181773F60020DCFE /* WriteDetailViewController.m */,
+				FCC0BBF518177BFF00377F5D /* WriteNoteViewController.h */,
+				FCC0BBF618177BFF00377F5D /* WriteNoteViewController.m */,
+				FCA9569A18177F560020BB67 /* Store.h */,
+				FCA9569B18177F560020BB67 /* Store.m */,
 				FC170237181773F60020DCFE /* Images.xcassets */,
-				FC17022E181773F60020DCFE /* Write.xcdatamodeld */,
+				FC17025B181775110020DCFE /* Core Data */,
 				FC170220181773F60020DCFE /* Supporting Files */,
 			);
 			path = Write;
@@ -140,10 +156,10 @@
 		FC170220181773F60020DCFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC170221181773F60020DCFE /* Write-Info.plist */,
+				FC170221181773F60020DCFE /* Jot-Info.plist */,
 				FC170222181773F60020DCFE /* InfoPlist.strings */,
 				FC170225181773F60020DCFE /* main.m */,
-				FC170227181773F60020DCFE /* Write-Prefix.pch */,
+				FC170227181773F60020DCFE /* Jot-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,18 +176,30 @@
 		FC170246181773F60020DCFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC170247181773F60020DCFE /* WriteTests-Info.plist */,
+				FC170247181773F60020DCFE /* JotTests-Info.plist */,
 				FC170248181773F60020DCFE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FC17025B181775110020DCFE /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC17025C1817760D0020DCFE /* Tag.h */,
+				FC17025D1817760D0020DCFE /* Tag.m */,
+				FC17022E181773F60020DCFE /* Write.xcdatamodeld */,
+				FCA9569D1817928A0020BB67 /* Sentence.h */,
+				FCA9569E1817928A0020BB67 /* Sentence.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC170213181773F60020DCFE /* Write */ = {
+		FC170213181773F60020DCFE /* Jot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Write" */;
+			buildConfigurationList = FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Jot" */;
 			buildPhases = (
 				FC170210181773F60020DCFE /* Sources */,
 				FC170211181773F60020DCFE /* Frameworks */,
@@ -181,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = Write;
+			name = Jot;
 			productName = Write;
-			productReference = FC170214181773F60020DCFE /* Write.app */;
+			productReference = FC170214181773F60020DCFE /* Jot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC17023C181773F60020DCFE /* WriteTests */ = {
+		FC17023C181773F60020DCFE /* JotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "WriteTests" */;
+			buildConfigurationList = FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "JotTests" */;
 			buildPhases = (
 				FC170239181773F60020DCFE /* Sources */,
 				FC17023A181773F60020DCFE /* Frameworks */,
@@ -199,9 +227,9 @@
 			dependencies = (
 				FC170244181773F60020DCFE /* PBXTargetDependency */,
 			);
-			name = WriteTests;
+			name = JotTests;
 			productName = WriteTests;
-			productReference = FC17023D181773F60020DCFE /* WriteTests.xctest */;
+			productReference = FC17023D181773F60020DCFE /* JotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Write" */;
+			buildConfigurationList = FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Jot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC170213181773F60020DCFE /* Write */,
-				FC17023C181773F60020DCFE /* WriteTests */,
+				FC170213181773F60020DCFE /* Jot */,
+				FC17023C181773F60020DCFE /* JotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +294,11 @@
 			files = (
 				FC170233181773F60020DCFE /* WriteMasterViewController.m in Sources */,
 				FC170236181773F60020DCFE /* WriteDetailViewController.m in Sources */,
+				FC17025E1817760D0020DCFE /* Tag.m in Sources */,
+				FCC0BBF718177BFF00377F5D /* WriteNoteViewController.m in Sources */,
 				FC17022A181773F60020DCFE /* WriteAppDelegate.m in Sources */,
+				FCA9569F1817928A0020BB67 /* Sentence.m in Sources */,
+				FCA9569C18177F560020BB67 /* Store.m in Sources */,
 				FC170230181773F60020DCFE /* Write.xcdatamodeld in Sources */,
 				FC170226181773F60020DCFE /* main.m in Sources */,
 			);
@@ -285,7 +317,7 @@
 /* Begin PBXTargetDependency section */
 		FC170244181773F60020DCFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC170213181773F60020DCFE /* Write */;
+			target = FC170213181773F60020DCFE /* Jot */;
 			targetProxy = FC170243181773F60020DCFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,9 +428,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
-				INFOPLIST_FILE = "Write/Write-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Write/Jot-Prefix.pch";
+				INFOPLIST_FILE = "Write/Jot-Info.plist";
+				PRODUCT_NAME = Jot;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,9 +441,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
-				INFOPLIST_FILE = "Write/Write-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Write/Jot-Prefix.pch";
+				INFOPLIST_FILE = "Write/Jot-Info.plist";
+				PRODUCT_NAME = Jot;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,8 +464,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "WriteTests/WriteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "WriteTests/JotTests-Info.plist";
+				PRODUCT_NAME = JotTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -451,8 +483,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Write/Write-Prefix.pch";
-				INFOPLIST_FILE = "WriteTests/WriteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "WriteTests/JotTests-Info.plist";
+				PRODUCT_NAME = JotTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -461,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Write" */ = {
+		FC17020F181773F60020DCFE /* Build configuration list for PBXProject "Jot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC17024D181773F60020DCFE /* Debug */,
@@ -470,21 +502,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Write" */ = {
+		FC17024F181773F60020DCFE /* Build configuration list for PBXNativeTarget "Jot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC170250181773F60020DCFE /* Debug */,
 				FC170251181773F60020DCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "WriteTests" */ = {
+		FC170252181773F60020DCFE /* Build configuration list for PBXNativeTarget "JotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC170253181773F60020DCFE /* Debug */,
 				FC170254181773F60020DCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
